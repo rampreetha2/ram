@@ -1,5 +1,13 @@
-lower=int(input("Enter the lower limit for the range:"))
-upper=int(input("Enter the upper limit for the range:"))
-for i in range(lower,upper+1):
-    if(i%2!=0):
-        print(i)
+def sumofoddints (n):
+
+   n >= 1
+
+    total = 0
+
+    for number in range (1, n):
+
+        if number % 2 == 1:
+
+            total += n
+
+    return total
